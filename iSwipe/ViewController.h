@@ -10,4 +10,12 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIImageView *tapImageOutlet;
+
+@property (strong, nonatomic) UISwipeGestureRecognizer *swipeGestureRecognizerRight;
+@property (strong, nonatomic) UISwipeGestureRecognizer *swipeGestureRecognizerLeft;
+
+@property (strong, nonatomic) NSArray *images;
+@property NSInteger currentIndex;
+
 @end
